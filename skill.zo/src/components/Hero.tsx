@@ -6,11 +6,11 @@ function Hero() {
             <h2 className="font-bold text-4xl md:text-6xl">Skill.zo</h2>
             <div className="w-16 md:w-26 mt-2 border-2 rounded-full border-green-300"></div>
             <h2 className="font-semibold text-2xl md:text-4xl md:mt-2 text-slate-500 animate-pulse">Skill up & Stand out.</h2>
-            <div className='md:flex md:p-10'>
-                <div className='w-auto mt-8'>
+            <div className='md:flex md:p-10 p-4 items-center'>
+                <div className='w-auto mt-8 flex items-center justify-center'>
                     <img className="w-[26rem] md:w-[90rem]" src={hero} alt="hero_Skill.zo" />
                 </div>
-                <div className="w-[26rem] md:w-auto md:p-10 mt-5 flex flex-col md:justify-center">
+                <div className="text-center p-4 md:w-auto md:p-10 mt-5 flex flex-col md:justify-center">
                     <p className="text-2xl font-mono text-justify">
                         Skill.zo cultivates skilled professionals by providing students with the knowledge and abilities necessary to thrive in a rapidly evolving society.
                     </p>
