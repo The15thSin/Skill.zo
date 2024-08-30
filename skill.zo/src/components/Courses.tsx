@@ -6,7 +6,7 @@ function Courses() {
             <h1 className="font-bold text-2xl md:text-4xl text-green-400">Check out the Courses we provide</h1>
             <div className="w-12 border-2 border-white rounded animate-pulse mt-2"></div>
 
-            <div className="grid grid-cols-1 gap-6 mt-10 sm:grid-cols-2 lg:grid-cols-3">
+            <div className="grid grid-cols-1 gap-6 mt-10 mx-4 sm:grid-cols-2 lg:grid-cols-3">
                 {/* ----------------------- cards starts here ---------------------- */}
 
                 {/* 1. Digital marketing */}
